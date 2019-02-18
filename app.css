@@ -1,11 +1,16 @@
 body {
-    background: #ffffff;
+    background: #fff9fb;
+    color:rgba(255, 239, 243);
     font-family:"Nunito", sans-serif;
 }
 
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
+}
+
+.navbar-toggler {
+    background-color:#EA1C2C;
 }
 
 #headingGroup h1 {
@@ -21,8 +26,21 @@ body {
 #mainNavbar .nav-link:hover {
     color:#EA1C2C;
 }
-p{
+h2{
+    font-size: 2.1rem;
+    font-weight: 100;
+    color:#EA1C2C;
+}
+
+.blurb p{
     color:#ad3434;
+    font-weight:100;
+    font-size:0.9rem;
+    line-height: 2;
+}
+
+.content{
+    margin-bottom: 100px;
 }
 
 #mainNavbar .navbar-brand {
