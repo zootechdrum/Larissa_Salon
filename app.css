@@ -46,7 +46,7 @@ h2{
 #mainNavbar .navbar-brand {
     color: #EA1C2C;
 }
-
+/*Responsible for the navbar animation*/
 .navbar.scrolled {
     background:#fff9fb;
     transition: background 200ms;
@@ -104,6 +104,10 @@ a{color:#fff9fb}
         #headingGroup h1 {
             font-weight: 100;
             font-size: 2rem;
-        }        
+        }  
     }
-
+@media (max-width:768px){
+    .navbar{
+        background:#fff9fb;
+    }
+}
