@@ -115,7 +115,5 @@ a{color:#fff9fb}
 @media (max-width:768px){
     .navbar{
         background:#fff9fb;
-        padding-left:0;
-        padding-right:0;
     }
 }
